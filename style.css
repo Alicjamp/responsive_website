@@ -1,35 +1,42 @@
 body {
-    background-color: aquamarine
+    background-color: aquamarine;
     }
 
-    @media only screen and (max-width: 1000px){
-        body {
-            background-color: lightcoral
+    p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    @media only screen and (max-width: 600px){
+        p {
+         margin-left: 25%;
+         margin-right: 25%;
      }
     }
     
+    @media only screen and (max-width: 1200px){
+        body {
+            background-color: lightcoral;
+     }
+    }
+    
+    @media only screen and (max-width: 1000px){
+        body {
+            background-color: purple;
+            font-size: 125%;
+     }
+    }
 
     @media only screen and (max-width: 800px){
         body {
-            background-color: pink
+            background-color: pink;
      }
     }
 
 @media only screen and (max-width: 600px){
     body {
-        background-color: yellowgreen
+        background-color: yellowgreen;
+        font-size: 150%;
  }
 }
 
-@media only screen and (max-width: 400px){
-    body {
-        background-color: purple
- }
-}
-
-
-@media only screen and (max-width: 100px){
-    body {
-        background-color: black
- }
-}
